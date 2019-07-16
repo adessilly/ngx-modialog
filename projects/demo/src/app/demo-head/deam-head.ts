@@ -6,7 +6,7 @@ import {
   EventEmitter
 } from '@angular/core';
 
-import { DialogRef } from 'ngx-modialog';
+import { DialogRef } from 'ad-ngx-modialog';
 
 export interface ModalCommandDescriptor {
   text: string;

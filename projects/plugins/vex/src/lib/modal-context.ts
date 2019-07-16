@@ -5,7 +5,7 @@ import {
   privateKey,
   extend,
   arrayUnion
-} from 'ngx-modialog';
+} from 'ad-ngx-modialog';
 
 
 const DEFAULT_VALUES = {

@@ -11,7 +11,7 @@ import { InAppModalModule, Modal } from './in-app-plugin/index';
 export class Home {
   @ViewChild('myTemplate', {read: TemplateRef, static: true}) public myTemplate: TemplateRef<any>;
 
-  readonly version = require('../../../../ngx-modialog/package.json').version;
+  readonly version = require('../../../../ad-ngx-modialog/package.json').version;
   readonly ngVersion = NG_VERSION.full;
 
   constructor(private modal: Modal) {

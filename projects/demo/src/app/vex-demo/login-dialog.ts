@@ -1,17 +1,17 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
-import { ModalComponent, DialogRef } from 'ngx-modialog';
-import { DialogPreset } from 'ngx-modialog/plugins/vex';
+import { ModalComponent, DialogRef } from 'ad-ngx-modialog';
+import { DialogPreset } from 'ad-ngx-modialog/plugins/vex';
 
 @Component({
   selector: 'login-dialog',
   encapsulation: ViewEncapsulation.None,
   template: `<div class="vex-dialog-message">{{context.message}}</div>
     <div *ngIf="context.showInput" class="vex-dialog-input">
-        <input name="vex" 
-               type="text" 
+        <input name="vex"
+               type="text"
                class="vex-dialog-prompt-input"
-               [(ngModel)]="context.defaultResult" 
+               [(ngModel)]="context.defaultResult"
                placeholder="{{context.placeholder}}">
     </div>`
 })

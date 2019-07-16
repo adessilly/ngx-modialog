@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { Modal as Modal_ } from 'ngx-modialog';
+import { Modal as Modal_ } from 'ad-ngx-modialog';
 import { Modal as InAppModal } from './modal';
 import { InAppModalBackdrop } from './modal-backdrop';
 

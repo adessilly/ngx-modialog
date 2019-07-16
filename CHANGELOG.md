@@ -1,35 +1,35 @@
 <a name="4.0.0-beta.3"></a>
-# [4.0.0-beta.3](https://github.com/shlomiassaf/ngx-modialog/compare/4.0.0-beta.2...4.0.0-beta.3) (2017-08-29)
+# [4.0.0-beta.3](https://github.com/shlomiassaf/ad-ngx-modialog/compare/4.0.0-beta.2...4.0.0-beta.3) (2017-08-29)
 
 
 ### Features
 
-* close all open dialogs ([#393](https://github.com/shlomiassaf/ngx-modialog/issues/393)) ([ec1e4d6](https://github.com/shlomiassaf/ngx-modialog/commit/ec1e4d6)), closes [#341](https://github.com/shlomiassaf/ngx-modialog/issues/341) [#314](https://github.com/shlomiassaf/ngx-modialog/issues/314)
+* close all open dialogs ([#393](https://github.com/shlomiassaf/ad-ngx-modialog/issues/393)) ([ec1e4d6](https://github.com/shlomiassaf/ad-ngx-modialog/commit/ec1e4d6)), closes [#341](https://github.com/shlomiassaf/ad-ngx-modialog/issues/341) [#314](https://github.com/shlomiassaf/ad-ngx-modialog/issues/314)
 
 
 
 <a name="4.0.0-beta.2"></a>
-# [4.0.0-beta.2](https://github.com/shlomiassaf/ngx-modialog/compare/4.0.0-beta.1...4.0.0-beta.2) (2017-08-15)
+# [4.0.0-beta.2](https://github.com/shlomiassaf/ad-ngx-modialog/compare/4.0.0-beta.1...4.0.0-beta.2) (2017-08-15)
 
 
 ### Bug Fixes
 
-* error with OutsideEventPlugin that would lead to calling undefined function ([#379](https://github.com/shlomiassaf/ngx-modialog/issues/379)) ([c313962](https://github.com/shlomiassaf/ngx-modialog/commit/c313962)), closes [#239](https://github.com/shlomiassaf/ngx-modialog/issues/239)
+* error with OutsideEventPlugin that would lead to calling undefined function ([#379](https://github.com/shlomiassaf/ad-ngx-modialog/issues/379)) ([c313962](https://github.com/shlomiassaf/ad-ngx-modialog/commit/c313962)), closes [#239](https://github.com/shlomiassaf/ad-ngx-modialog/issues/239)
 
 
 ### Features
 
-* **vex:** Full Support for VEX v4 and v3 ([#386](https://github.com/shlomiassaf/ngx-modialog/issues/386)) ([b8f02e1](https://github.com/shlomiassaf/ngx-modialog/commit/b8f02e1)), closes [#384](https://github.com/shlomiassaf/ngx-modialog/issues/384)
+* **vex:** Full Support for VEX v4 and v3 ([#386](https://github.com/shlomiassaf/ad-ngx-modialog/issues/386)) ([b8f02e1](https://github.com/shlomiassaf/ad-ngx-modialog/commit/b8f02e1)), closes [#384](https://github.com/shlomiassaf/ad-ngx-modialog/issues/384)
 
 
 
 <a name="4.0.0-beta.1"></a>
-# [4.0.0-beta.1](https://github.com/shlomiassaf/ngx-modialog/compare/4.0.0-beta.0...4.0.0-beta.1) (2017-08-13)
+# [4.0.0-beta.1](https://github.com/shlomiassaf/ad-ngx-modialog/compare/4.0.0-beta.0...4.0.0-beta.1) (2017-08-13)
 
 
 ### Code Refactoring
 
-* dont return a promise when opening a dialog ([#383](https://github.com/shlomiassaf/ngx-modialog/issues/383)) ([21f54ee](https://github.com/shlomiassaf/ngx-modialog/commit/21f54ee))
+* dont return a promise when opening a dialog ([#383](https://github.com/shlomiassaf/ad-ngx-modialog/issues/383)) ([21f54ee](https://github.com/shlomiassaf/ad-ngx-modialog/commit/21f54ee))
 
 
 ### BREAKING CHANGES
@@ -48,12 +48,12 @@ If you return `Promise` of `DialogRef` you will have to refactor your code.
 
 
 <a name="4.0.0-beta.0"></a>
-# [4.0.0-beta.0](https://github.com/shlomiassaf/ngx-modialog/compare/3.0.2...4.0.0-beta.0) (2017-08-13)
+# [4.0.0-beta.0](https://github.com/shlomiassaf/ad-ngx-modialog/compare/3.0.2...4.0.0-beta.0) (2017-08-13)
 
 
 ### Code Refactoring
 
-* support angular version 5 ([#382](https://github.com/shlomiassaf/ngx-modialog/issues/382)) ([e628875](https://github.com/shlomiassaf/ngx-modialog/commit/e628875))
+* support angular version 5 ([#382](https://github.com/shlomiassaf/ad-ngx-modialog/issues/382)) ([e628875](https://github.com/shlomiassaf/ad-ngx-modialog/commit/e628875))
 
 
 ### BREAKING CHANGES

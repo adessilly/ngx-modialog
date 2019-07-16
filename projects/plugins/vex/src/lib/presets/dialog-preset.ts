@@ -4,7 +4,7 @@ import {
   privateKey,
   extend,
   arrayUnion
-} from 'ngx-modialog';
+} from 'ad-ngx-modialog';
 import { VEXModalContext, VEXModalContextBuilder } from '../modal-context';
 import { Modal } from '../modal';
 import {

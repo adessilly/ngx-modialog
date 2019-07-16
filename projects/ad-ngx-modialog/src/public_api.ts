@@ -1,5 +1,5 @@
 /*
- * Public API Surface of ngx-modialog
+ * Public API Surface of ad-ngx-modialog
  */
 import { Modal } from './lib/providers/index';
 
@@ -47,5 +47,5 @@ export { ModalOpenContext, ModalOpenContextBuilder } from './lib/models/modal-op
 
 export * from './lib/components/index';
 
-export { ModalModule } from './lib/ngx-modialog.module';
+export { ModalModule } from './lib/ad-ngx-modialog.module';
 

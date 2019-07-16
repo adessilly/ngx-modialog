@@ -2,11 +2,11 @@
   "extends": "./tsconfig.app",
   "compilerOptions": {
     "paths": {
-      "ngx-modialog": [
-        "dist/ngx-modialog"
+      "ad-ngx-modialog": [
+        "dist/ad-ngx-modialog"
       ],
-      "ngx-modialog/plugins/*": [
-        "dist/ngx-modialog/plugins/*"
+      "ad-ngx-modialog/plugins/*": [
+        "dist/ad-ngx-modialog/plugins/*"
       ]
     }
   }

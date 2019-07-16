@@ -3,7 +3,7 @@ import {
   FluentAssignMethod,
   extend,
   arrayUnion
-} from 'ngx-modialog';
+} from 'ad-ngx-modialog';
 import { BSMessageModal } from '../message-modal.component';
 import { MessageModalPresetBuilder } from './message-modal-preset';
 import { OneButtonPreset } from './one-button-preset';

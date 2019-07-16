@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DialogRef } from "ngx-modialog";
+import { DialogRef } from 'ad-ngx-modialog';
 
 
 @Component({

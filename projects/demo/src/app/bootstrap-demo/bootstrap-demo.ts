@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { providers } from 'ngx-modialog/plugins/bootstrap';
+import { providers } from 'ad-ngx-modialog/plugins/bootstrap';
 
 @Component({
   selector: 'bootstrap-demo',

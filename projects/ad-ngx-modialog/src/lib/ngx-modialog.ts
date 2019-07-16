@@ -44,5 +44,5 @@ export { ModalOpenContext, ModalOpenContextBuilder } from './models/modal-open-c
 
 export * from './components/index';
 
-export { ModalModule } from './ngx-modialog.module';
+export { ModalModule } from './ad-ngx-modialog.module';
 

@@ -1,7 +1,7 @@
 import { Component, Compiler, NgModuleRef, ViewContainerRef } from '@angular/core';
 
-import { DialogRef, overlayConfigFactory } from "ngx-modialog";
-import { Modal, BSModalContext } from 'ngx-modialog/plugins/bootstrap';
+import { DialogRef, overlayConfigFactory } from 'ad-ngx-modialog';
+import { Modal, BSModalContext } from 'ad-ngx-modialog/plugins/bootstrap';
 
 import { InnerRuntimeCompiledModule, InnerRuntimeCompiledComponent } from './inner-runtime-compiled';
 let runtimeModuleRefPromise: Promise<NgModuleRef<any>>;
@@ -18,9 +18,9 @@ let runtimeModuleRefPromise: Promise<NgModuleRef<any>>;
   <p>To JIT compile another (different) module inside this (JIT) compiled module press the button below.
   The value selected on the popup opened will bubble down.</p>
   <button class="btn btn-primary" (click)="openModal()">Compile and open again!</button>
-  
+
   <hr>
-  
+
   <p>To demonstrate opening a JIT compiled component inside a view container ref that was created before the component was compiled press the button below.</p>
   <button class="btn btn-warning" (click)="openInElement()">Open in element!</button>
 </div>`

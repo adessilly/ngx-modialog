@@ -1,8 +1,8 @@
 {
-  "name": "ngx-modialog/plugins/vex",
+  "name": "ad-ngx-modialog/plugins/vex",
   "peerDependencies": {
-    "@angular/common": "^6.0.0",
-    "@angular/core": "^6.0.0",
-    "ngx-modialog": "*"
+    "@angular/common": "^8.1.0",
+    "@angular/core": "^8.1.0",
+    "ad-ngx-modialog": "*"
   }
 }

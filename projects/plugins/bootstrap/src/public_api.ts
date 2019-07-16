@@ -14,7 +14,7 @@ export {
   MessageModalPresetBuilder
 } from './lib/presets/message-modal-preset';
 
-export { ModalOpenContext, ModalOpenContextBuilder } from 'ngx-modialog';
+export { ModalOpenContext, ModalOpenContextBuilder } from 'ad-ngx-modialog';
 export { OneButtonPreset, OneButtonPresetBuilder } from './lib/presets/one-button-preset';
 export {
   TwoButtonPreset,

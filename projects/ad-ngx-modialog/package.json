@@ -1,10 +1,10 @@
 {
   "name": "ad-ngx-modialog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Modal / Dialog for Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shlomiassaf/ngx-modialog.git"
+    "url": "https://github.com/shlomiassaf/ad-ngx-modialog.git"
   },
   "keywords": [
     "angular",
@@ -14,12 +14,12 @@
   ],
   "author": "Shlomi Assaf",
   "license": "MIT",
-  "homepage": "https://github.com/shlomiassaf/ngx-modialog",
+  "homepage": "https://github.com/shlomiassaf/ad-ngx-modialog",
   "bugs": {
-    "url": "https://github.com/shlomiassaf/ngx-modialog/issues"
+    "url": "https://github.com/shlomiassaf/ad-ngx-modialog/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^6.0.0",
-    "@angular/core": "^6.0.0"
+    "@angular/common": "^8.1.0",
+    "@angular/core": "^8.1.0"
   }
 }

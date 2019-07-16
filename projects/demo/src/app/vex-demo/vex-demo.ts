@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation, ViewChild, TemplateRef } from '@angular/core';
 
-import { overlayConfigFactory } from 'ngx-modialog';
+import { overlayConfigFactory } from 'ad-ngx-modialog';
 import {
   VEXBuiltInThemes,
   Modal,
@@ -10,7 +10,7 @@ import {
   VEXModalContext,
   vexV3Mode,
   providers
-} from 'ngx-modialog/plugins/vex';
+} from 'ad-ngx-modialog/plugins/vex';
 
 import { DemoHead, ModalCommandDescriptor } from '../demo-head/index';
 import * as presets from './presets';

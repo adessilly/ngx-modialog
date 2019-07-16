@@ -3,7 +3,7 @@ import {
   OneButtonPresetBuilder,
   TwoButtonPresetBuilder,
   PromptPresetBuilder
-} from 'ngx-modialog/plugins/bootstrap';
+} from 'ad-ngx-modialog/plugins/bootstrap';
 
 export function alert(modal: Modal): OneButtonPresetBuilder {
   return modal.alert()
@@ -11,7 +11,7 @@ export function alert(modal: Modal): OneButtonPresetBuilder {
     .showClose(true)
     .title('A simple Alert style modal window')
     .body(`
-        <h4>Alert is a classic (title/body/footer) 1 button modal window that 
+        <h4>Alert is a classic (title/body/footer) 1 button modal window that
         does not block.</h4>
         <b>Configuration:</b>
         <ul>
@@ -35,7 +35,7 @@ export function confirm(modal: Modal): TwoButtonPresetBuilder {
   return modal.confirm()
     .size('lg')
     .titleHtml(`
-            <div class="modal-title" 
+            <div class="modal-title"
                  style="font-size: 22px; color: grey; text-decoration: underline;">
                  A simple Confirm style modal window</div>`)
     .body(`

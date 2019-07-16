@@ -8,7 +8,7 @@ import {
   Modal as Modal_,
   CSSBackdrop,
   PromiseCompleter
-} from 'ngx-modialog';
+} from 'ad-ngx-modialog';
 
 import { BSModalContainer } from './modal-container.component';
 
@@ -23,7 +23,7 @@ let animationClass: string = 'show';
 
 /**
  * Execute this method to flag that you are working with Bootstrap version 4.
- * @deprecated From version 5, ngx-modialog's bootstrap plugin is set to work with version 4 of bootstrap by default.
+ * @deprecated From version 5, ad-ngx-modialog's bootstrap plugin is set to work with version 4 of bootstrap by default.
  */
 export function bootstrap4Mode(): void { }
 /**
