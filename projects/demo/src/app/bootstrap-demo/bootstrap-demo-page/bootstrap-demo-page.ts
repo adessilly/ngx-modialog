@@ -18,7 +18,7 @@ let runtimeModuleRefPromise: Promise<NgModuleRef<any>>;
 })
 export class BootstrapDemoPage {
   modalCommands: ModalCommandDescriptor[];
-  @ViewChild('templateRef') public templateRef: TemplateRef<any>;
+  @ViewChild('templateRef', { static: true }) public templateRef: TemplateRef<any>;
 
   constructor(public modal: Modal, private compiler: Compiler, private injector: Injector) {
     this.modalCommands = [

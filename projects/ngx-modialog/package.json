@@ -1,6 +1,6 @@
 {
-  "name": "ngx-modialog",
-  "version": "5.0.1",
+  "name": "ad-ngx-modialog",
+  "version": "0.0.1",
   "description": "Modal / Dialog for Angular",
   "repository": {
     "type": "git",

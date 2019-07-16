@@ -18,7 +18,7 @@ export class VexCSSDialogContainer extends CSSDialogContainer {
   /**
    * The div that wraps the content of the modal, by default use the class `vex-content`
    */
-  @ViewChild('clickBoundary', {read: ElementRef}) public vexContentContainer: ElementRef;
+  @ViewChild('clickBoundary', {read: ElementRef, static: true}) public vexContentContainer: ElementRef;
 
 
   apply(overlay: ModalOverlay): void {

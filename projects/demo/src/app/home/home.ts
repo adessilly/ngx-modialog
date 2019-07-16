@@ -9,7 +9,7 @@ import { InAppModalModule, Modal } from './in-app-plugin/index';
   encapsulation: ViewEncapsulation.None
 })
 export class Home {
-  @ViewChild('myTemplate', {read: TemplateRef}) public myTemplate: TemplateRef<any>;
+  @ViewChild('myTemplate', {read: TemplateRef, static: true}) public myTemplate: TemplateRef<any>;
 
   readonly version = require('../../../../ngx-modialog/package.json').version;
   readonly ngVersion = NG_VERSION.full;
